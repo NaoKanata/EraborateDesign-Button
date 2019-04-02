@@ -53,6 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\MoveButton.cs" />
      <Compile Include="Assets\Scripts\PushEffect.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>/Users/naoki/Documents/UnityProjects/EraborateDesign/Button/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
