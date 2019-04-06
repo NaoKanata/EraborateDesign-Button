@@ -9,7 +9,9 @@ public class PushEffect : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //RectTransformを取得
         rt = GetComponent<RectTransform>();
+        //初期位置を取得
         oPos = rt.anchoredPosition;
     }
 
@@ -20,6 +22,7 @@ public class PushEffect : MonoBehaviour
         
     }
 
+    //y座標を移動させる関数
     public void MovePos(int y)
     {
         rt.anchoredPosition = new Vector2(rt.anchoredPosition.x,oPos.y+y);
